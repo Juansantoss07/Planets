@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
@@ -293,7 +297,7 @@ body {
 
       nav{
           display: flex;
-          padding: 1rem;
+          padding: 0 1rem;
           justify-content: center !important;
           align-items: center;
       }
