@@ -320,4 +320,8 @@ body {
           margin-right: 100px !important;
       }
 
+      .sectiontwo{
+          display: none;
+      }
+
 }
