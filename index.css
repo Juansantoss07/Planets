@@ -324,8 +324,57 @@ body {
           margin-right: 100px !important;
       }
 
-      .sectiontwo{
+      .swiper-container{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+      }
+
+      .rockbg1 img{
           display: none;
       }
+
+      .swiper-wrapper{
+          width: 100%;
+          padding: 2rem;
+      }
+
+    .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 100%;
+        height: 100%;
+        padding:0;
+    }
+
+
+    .slide-text{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+
+    .slide-detail{
+        width: 100%;
+        height: 100%;
+    }
+
+    h5{
+        margin-top: 14rem;
+    }
+
+    .planet-links{
+        display: none;
+    }
+
+    span{
+        width: 100%;
+        padding: 0 10rem 2rem 0;
+    }
+
 
 }
